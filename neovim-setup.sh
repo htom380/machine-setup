@@ -1,7 +1,7 @@
 
 
 mkdir ~/downloads -p
-sudo apt install wget libfuse2 ripgrep -y
+sudo apt install wget libfuse2 ripgrep fuse -y
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 sudo mv nvim.appimage /usr/local/bin
 chmod u+x /usr/local/bin/nvim.appimage
